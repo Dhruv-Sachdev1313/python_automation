@@ -3,8 +3,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 #please specify these environment variables before runnung the script
-username = 'testmailabc123456@gmail.com'
-password = 'helloworld123'
+username = ''
+password = ''
 
 
 def send_email(text='Email Body', subject='Hello World', from_email='Test mail <testmailabc123456@gmail.com>', to_emails=['testmailabc123456@gmail.com'], html=None):
