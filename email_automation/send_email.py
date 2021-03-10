@@ -7,7 +7,7 @@ username = ''
 password = ''
 
 
-def send_email(text='Email Body', subject='Hello World', from_email='Test mail <testmailabc123456@gmail.com>', to_emails=['testmailabc123456@gmail.com'], html=None):
+def send_email(text='Email Body', subject='Hello World', from_email='Test mail <testmailabc123456@gmail.com>', to_emails=None, html=None):
     assert isinstance(to_emails,list)
     msg = MIMEMultipart('alternative')
     msg['From'] = from_email
